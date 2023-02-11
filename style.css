@@ -6,7 +6,6 @@
 
 .top-page {
     background-color: #1f2937;
-    padding: 20px 0;
 }
 
 .container {
@@ -50,8 +49,39 @@ a {
     border: 0;
 }
 
-img {
+.top-page img {
+    height: 400px;
     width: 500px;
 }
+
+.info-container {
+    background-color: #f9faf8;   
+    text-align: center;
+}
+
+.info-container h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.info-container .img-content-container {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.info-container .content {
+    color: #4b5563;
+    max-width: 160px;
+}
+
+.info-container img {
+    border: 3px solid #3882f6;
+    border-radius: 8px;
+    height: 160px;
+    width: 160px;
+}
+
 
 
