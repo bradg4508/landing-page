@@ -52,9 +52,14 @@ a {
     padding: 5px 15px;
 }
 
-.top-page img {
-    height: 400px;
+.top-page .img-placeholder {
     width: 500px;
+    height: 200px;
+    color: #ffffff;
+    background-color: #6d747d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .info-container {
@@ -79,11 +84,12 @@ a {
     max-width: 160px;
 }
 
-.info-container img {
+.info-container .img-content {
     border: 3px solid #3882f6;
     border-radius: 8px;
     height: 160px;
     width: 160px;
+    background-color: #ffffff;
 }
 
 .quote-container {
