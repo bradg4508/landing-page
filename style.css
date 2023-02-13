@@ -4,7 +4,8 @@
     margin: 0;
 }
 
-.top-page {
+.top-page,
+footer {
     background-color: #1f2937;
 }
 
@@ -47,6 +48,8 @@ a {
     font-size: 18px;
     color: #f9faf8;
     border: 0;
+    border-radius: 8px;
+    padding: 5px 15px;
 }
 
 .top-page img {
@@ -130,4 +133,12 @@ a {
     background-color: #3882f6;
     color: #ffffff;
     font-size: 18px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    padding: 30px;
 }
